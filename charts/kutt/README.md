@@ -88,6 +88,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | kutt.database.client | string | `"pg"` | Which database client to use. This Chart currently only supports PostgreSQL: pg or pg-native. NOTE: pg-native is not installed by default, create your own image to use it. |
 | kutt.database.pool.max | int | `10` | Maximum number of database connection pools. Only if you use Postgres or MySQL. |
 | kutt.database.pool.min | int | `0` | Minimum number of database connection pools. Only if you use Postgres or MySQL. |
+| kutt.database.useSsl | bool | `false` | Whether use SSL for the database connection. Only if you use Postgres or MySQL. |
 | kutt.domain.customDomainUseHttps | bool | `false` | Use HTTPS for links with custom domain |
 | kutt.domain.defaultDomain | string | `"localhost:3000"` | The domain that this website is on |
 | kutt.domain.useFirstIngressHost | bool | `false` | If you use an ingress to expose Kutt you can simply set this to true to use the first hostname defined in the ingress. |
