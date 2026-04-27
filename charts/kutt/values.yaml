@@ -196,6 +196,8 @@ kutt:
       max: 10
       # -- Minimum number of database connection pools. Only if you use Postgres or MySQL.
       min: 0
+    # -- Whether use SSL for the database connection. Only if you use Postgres or MySQL.
+    useSsl: false
   domain:
     # -- Use HTTPS for links with custom domain
     customDomainUseHttps: false
