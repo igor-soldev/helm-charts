@@ -1,7 +1,7 @@
 # proxysql
 
-## 2.4.3
+## 2.5.0
 
-### Changed
+### Added
 
-- App Version to 3.0.8
+- option to define route timeouts

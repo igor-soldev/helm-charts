@@ -1,7 +1,7 @@
 # nextcloud-exporter
 
-## 1.3.2
+## 1.4.0
 
-### Changed
+### Added
 
-- App Version to 0.9.1
+- option to define route timeouts

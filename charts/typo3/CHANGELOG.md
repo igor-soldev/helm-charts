@@ -1,7 +1,7 @@
 # typo3
 
-## 7.1.4
+## 7.2.0
 
-### Changed
+### Added
 
-- dependency of postgresql to 18.6.2
+- option to define route timeouts

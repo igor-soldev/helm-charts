@@ -1,7 +1,7 @@
 # polr
 
-## 4.2.1
+## 4.3.0
 
-### Fixed
+### Added
 
-- problem in hpa template
+- option to define route timeouts

@@ -1,7 +1,7 @@
 # kubevirt-manager
 
-## 0.5.2
+## 0.6.0
 
-### Changed
+### Added
 
-- App Version to 1.5.4
+- option to define route timeouts

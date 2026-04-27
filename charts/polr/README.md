@@ -111,6 +111,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | route.main.labels | object | `{}` | Add labels to the route |
 | route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | securityContext | object | `{}` | container-level security context |
 | service.port | int | `80` | Kubernetes port where service is exposed |
 | service.type | string | `"ClusterIP"` | Kubernetes service type |

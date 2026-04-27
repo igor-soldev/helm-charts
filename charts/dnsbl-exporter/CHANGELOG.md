@@ -1,7 +1,7 @@
 # dnsbl-exporter
 
-## 1.3.1
+## 1.4.0
 
-### Fixed
+### Added
 
-- doc for deployment strategy
+- option to define route timeouts

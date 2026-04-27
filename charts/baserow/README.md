@@ -88,6 +88,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | backend.asgi.route.main.labels | object | `{}` | Add labels to the route |
 | backend.asgi.route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | backend.asgi.route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| backend.asgi.route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | backend.asgi.securityContext | object | `{"runAsGroup":9999,"runAsNonRoot":true,"runAsUser":9999}` | container-level security context |
 | backend.asgi.selectorLabels | object | `{}` | Additional labels to add to the pod |
 | backend.asgi.service.port | int | `8000` | Kubernetes port where service is exposed |
@@ -244,6 +245,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | backend.wsgi.route.main.labels | object | `{}` | Add labels to the route |
 | backend.wsgi.route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | backend.wsgi.route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| backend.wsgi.route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | backend.wsgi.securityContext | object | `{"runAsGroup":9999,"runAsNonRoot":true,"runAsUser":9999}` | container-level security context |
 | backend.wsgi.selectorLabels | object | `{}` | Additional labels to add to the pod |
 | backend.wsgi.service.port | int | `8000` | Kubernetes port where service is exposed |
@@ -319,6 +321,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | frontend.route.main.labels | object | `{}` | Add labels to the route |
 | frontend.route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | frontend.route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| frontend.route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | frontend.securityContext | object | `{"runAsGroup":9999,"runAsNonRoot":true,"runAsUser":9999}` | container-level security context |
 | frontend.selectorLabels | object | `{}` | Additional labels to add to the pod |
 | frontend.service.port | int | `3000` | Kubernetes port where service is exposed |

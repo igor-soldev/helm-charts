@@ -1,7 +1,7 @@
 # cluster-api-visualizer
 
-## 0.5.1
+## 0.6.0
 
-### Fixed
+### Added
 
-- doc for deployment strategy
+- option to define route timeouts

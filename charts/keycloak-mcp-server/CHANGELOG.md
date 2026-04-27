@@ -1,7 +1,7 @@
 # keycloak-mcp-server
 
-## 1.0.1
+## 1.1.0
 
-### Fixed
+### Added
 
-- problem in hpa template
+- option to define route timeouts

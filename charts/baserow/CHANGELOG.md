@@ -1,7 +1,7 @@
 # baserow
 
-## 7.2.2
+## 7.3.0
 
-### Changed
+### Added
 
-- dependency of postgresql to 18.6.2
+- option to define route timeouts

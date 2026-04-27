@@ -1,7 +1,7 @@
 # headwind-mdm
 
-## 5.4.2
+## 5.5.0
 
-### Changed
+### Added
 
-- dependency of postgresql to 18.6.2
+- option to define route timeouts

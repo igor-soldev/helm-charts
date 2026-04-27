@@ -590,6 +590,12 @@
               },
               "title": "parentRefs",
               "type": "array"
+            },
+            "timeouts": {
+              "description": "defines the timeouts that can be configured for an HTTP request",
+              "required": [],
+              "title": "timeouts",
+              "type": "object"
             }
           },
           "required": [
@@ -603,7 +609,8 @@
             "matches",
             "filters",
             "additionalRules",
-            "httpsRedirect"
+            "httpsRedirect",
+            "timeouts"
           ],
           "title": "main",
           "type": "object"
