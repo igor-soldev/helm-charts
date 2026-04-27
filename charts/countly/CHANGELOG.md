@@ -1,7 +1,7 @@
 # countly
 
-## 4.6.17
+## 4.7.0
 
-### Changed
+### Added
 
-- dependency of mongodb to 18.6.31
+- option to define route timeouts

@@ -88,6 +88,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | api.route.main.labels | object | `{}` | Add labels to the route |
 | api.route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | api.route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| api.route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | api.securityContext | object | `{}` | container-level security context |
 | api.selectorLabels | object | `{}` | Additional labels to add to the pod |
 | api.service.port | int | `3000` | Kubernetes port where service is exposed |
@@ -147,6 +148,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | frontend.route.main.labels | object | `{}` | Add labels to the route |
 | frontend.route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | frontend.route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| frontend.route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | frontend.securityContext | object | `{}` | container-level security context |
 | frontend.selectorLabels | object | `{}` | Additional labels to add to the pod |
 | frontend.service.port | int | `3000` | Kubernetes port where service is exposed |
