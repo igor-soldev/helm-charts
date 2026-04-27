@@ -1,7 +1,7 @@
 # github-exporter
 
-## 2.4.0
+## 2.5.0
 
-### Changed
+### Added
 
-- App Version to v2.3.0
+- option to define route timeouts

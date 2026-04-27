@@ -1,7 +1,7 @@
 # squest
 
-## 6.2.1
+## 6.3.0
 
-### Changed
+### Added
 
-- dependency of mariadb to 25.0.10
+- option to define route timeouts

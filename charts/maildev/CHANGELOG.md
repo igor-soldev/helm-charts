@@ -1,7 +1,7 @@
 # maildev
 
-## 1.5.1
+## 1.6.0
 
-### Fixed
+### Added
 
-- problem in hpa template
+- option to define route timeouts

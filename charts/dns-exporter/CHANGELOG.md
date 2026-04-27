@@ -1,11 +1,7 @@
 # dns-exporter
 
-## 2.4.0
+## 2.5.0
 
-### Changed
+### Added
 
-- App version to v1.2.2
-
-### Fixed
-
-- docs for module configuration
+- option to define route timeouts

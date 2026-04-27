@@ -1,7 +1,7 @@
 # kutt
 
-## 9.2.2
+## 9.3.0
 
-### Changed
+### Added
 
-- dependency of postgresql to 18.6.2
+- option to define route timeouts

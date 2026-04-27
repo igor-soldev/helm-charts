@@ -1,7 +1,7 @@
 # sloop
 
-## 0.3.1
+## 0.4.0
 
-### Fixed
+### Added
 
-- problem in hpa template
+- option to define route timeouts

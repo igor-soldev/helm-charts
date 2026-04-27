@@ -1,7 +1,7 @@
 # mcp-for-argocd
 
-## 1.1.0
+## 1.2.0
 
-### Changed
+### Added
 
-- App Version to v0.6.0
+- option to define route timeouts

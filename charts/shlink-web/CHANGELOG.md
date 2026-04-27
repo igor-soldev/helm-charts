@@ -1,7 +1,7 @@
 # shlink-web
 
-## 1.11.0
+## 1.12.0
 
-### Changed
+### Added
 
-- App Version to 4.7.0
+- option to define route timeouts

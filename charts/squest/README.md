@@ -207,6 +207,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | squest.route.main.labels | object | `{}` | Add labels to the route |
 | squest.route.main.matches | list | see [values.yaml](./values.yaml) | define conditions used for matching the rule against incoming HTTP requests. |
 | squest.route.main.parentRefs | list | `[]` | Parent references (Gateway) |
+| squest.route.main.timeouts | object | `{}` | defines the timeouts that can be configured for an HTTP request |
 | squest.securityContext | object | `{}` | container-level security context |
 | squest.service.port | int | `8080` | Kubernetes port where service is exposed |
 | squest.service.type | string | `"ClusterIP"` | Kubernetes service type |

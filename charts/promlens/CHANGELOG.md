@@ -1,7 +1,7 @@
 # promlens
 
-## 1.4.0
+## 1.5.0
 
 ### Added
 
-- support for setting priorityClassName
+- option to define route timeouts

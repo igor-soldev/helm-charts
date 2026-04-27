@@ -1,7 +1,7 @@
 # syncserver
 
-## 1.2.0
+## 1.3.0
 
 ### Added
 
-- support for Gateway API routes
+- option to define route timeouts

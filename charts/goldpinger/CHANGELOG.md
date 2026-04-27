@@ -1,7 +1,7 @@
 # goldpinger
 
-## 1.2.2
+## 1.3.0
 
-### Changed
+### Added
 
-- App Version to 3.11.2
+- option to define route timeouts

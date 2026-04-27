@@ -1,7 +1,7 @@
 # syncstorage-rs
 
-## 5.0.9
+## 5.1.0
 
-### Changed
+### Added
 
-- dependency of mariadb mariadb to 25.0.10
+- option to define route timeouts

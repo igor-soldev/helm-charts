@@ -1,7 +1,7 @@
 # timetagger
 
-## 2.1.3
+## 2.2.0
 
-### Changed
+### Added
 
-- App Version to v26.1.3
+- option to define route timeouts

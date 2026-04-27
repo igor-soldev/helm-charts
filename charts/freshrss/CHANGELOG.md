@@ -1,7 +1,7 @@
 # freshrss
 
-## 2.9.2
+## 2.10.0
 
-### Changed
+### Added
 
-- dependency of postgresql to 18.6.2
+- option to define route timeouts

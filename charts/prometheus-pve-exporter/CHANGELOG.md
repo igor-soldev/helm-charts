@@ -1,7 +1,7 @@
 # prometheus-pve-exporter
 
-## 2.6.3
+## 2.7.0
 
-### Changed
+### Added
 
-- App Version to 3.8.2
+- option to define route timeouts
