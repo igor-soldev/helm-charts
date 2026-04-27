@@ -434,11 +434,18 @@
               ],
               "title": "pool",
               "type": "object"
+            },
+            "useSsl": {
+              "default": false,
+              "description": "Whether use SSL for the database connection. Only if you use Postgres or MySQL.",
+              "title": "useSsl",
+              "type": "boolean"
             }
           },
           "required": [
             "client",
-            "pool"
+            "pool",
+            "useSsl"
           ],
           "title": "database",
           "type": "object"

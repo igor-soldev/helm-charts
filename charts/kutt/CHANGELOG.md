@@ -1,7 +1,7 @@
 # kutt
 
-## 9.3.0
+## 9.4.0
 
 ### Added
 
-- option to define route timeouts
+- option to define if ssl should be used for the db connection
