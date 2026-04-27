@@ -2,7 +2,7 @@ apiVersion: v2
 name: skooner
 description: Simple Kubernetes real-time dashboard and management.
 type: application
-version: 0.3.1
+version: 0.4.0
 appVersion: "stable"
 home: https://github.com/christianhuth/helm-charts
 icon: https://raw.githubusercontent.com/christianhuth/helm-charts/refs/heads/main/charts/skooner/icon.svg
@@ -14,8 +14,8 @@ sources:
 annotations:
   artifacthub.io/category: monitoring-logging
   artifacthub.io/changes: |
-    - kind: fixed
-      description: problem in hpa template
+    - kind: added
+      description: option to define route timeouts
   artifacthub.io/links: |
     - name: support
       url: https://github.com/christianhuth/helm-charts/issues
